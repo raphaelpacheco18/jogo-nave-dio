@@ -14,7 +14,7 @@
             <div id="fundoGame"> <!-- div fundoGame !-->
             
                 <div id="inicio" onclick="start()"><h1> Resgate </h1> <!-- div inicio !-->
-                <p>Utilize a tecla W para movimentar o helicóptero para cima, 
+                <p class="text1">Utilize a tecla W para movimentar o helicóptero para cima, 
                     a tecla S para movimentar o helicóptero para baixo e a tecla D 
                     para atirar.</p>
                     <button role="button" class="botao">
@@ -26,6 +26,12 @@
             </div> <!-- Fim da div fundoGame !-->
             
         </div> <!-- Fim da div container !-->
+
+        <main>
+            <h5 id="page-title">Light Mode ON</h5>
+            <button aria-label="selecionar-modo" id="mode-selector">Dark Mode</button>
+        </main>
+
 
         <!-- Sons do jogo !-->
         <audio src="sons/som.mp3" preload="auto" id="somDisparo"></audio>
@@ -39,6 +45,9 @@
         <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
         <script type="text/javascript" src="js/jquery-collision.min.js"></script>
         <script type="text/javascript" src="js/js.js"></script>
+        <script type="text/javascript" src="js/scrips.js"></script>
+
+        <footer>Basecamp JavaScript & <strong>Rafael Pacheco</strong></footer>
 
 </body>
 </html>
